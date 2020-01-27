@@ -1,4 +1,30 @@
-
+* {
+    margin: 0;
+    padding:0;
+}
 
 .attribution { font-size: 11px; text-align: center; }
 .attribution a { color: hsl(228, 45%, 44%); }
+
+body {
+    font-family: poppins;
+}
+
+.wrapper {
+    width:1440px;
+    margin: auto;
+    text-align: center;
+}
+
+header {
+    widows: 50%;
+}
+
+main {
+    display:flex;
+}
+
+.middle {
+    display:flex;
+    flex-direction:column;
+}
