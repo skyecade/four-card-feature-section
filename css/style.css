@@ -1,6 +1,7 @@
 * {
     margin: 0;
     padding:0;
+    box-sizing: border-box;
 }
 
 .attribution { font-size: 11px; text-align: center; }
@@ -22,9 +23,23 @@ header {
 
 main {
     display:flex;
+    flex:1;
+    align-items: center;
 }
+
+/* handles the ywom middle cards */
 
 .middle {
     display:flex;
     flex-direction:column;
+    margin:10px
+}
+
+.card {
+    height: 350px;
+    width: 400px;
+    margin:20px;
+    padding: 40px;
+    border: 1px solid red;
+
 }
