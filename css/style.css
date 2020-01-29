@@ -9,21 +9,36 @@
 
 body {
     font-family: poppins;
+    margin-top:30px;
+    background-color: black;
+    color:hsl(229, 6%, 66%);
 }
 
 .wrapper {
     width:1440px;
+    background-color: hsl(0, 0%, 98%);
     margin: auto;
-    text-align: center;
 }
 
 header {
-    widows: 50%;
+    text-align: center;
+    width: 40%;
+    margin:auto;
+    padding:40px;
 }
 
+header > h1 {
+    
+    font-weight: lighter;
+}
+
+.strong {
+    color:hsl(234, 12%, 34%);
+    font-weight: bold;
+}
 main {
     display:flex;
-    flex:1;
+    justify-content: center;
     align-items: center;
 }
 
@@ -36,10 +51,28 @@ main {
 }
 
 .card {
-    height: 350px;
-    width: 400px;
+    height: 300px;
+    width: 350px;
     margin:20px;
     padding: 40px;
-    border: 1px solid red;
+    background-color: white;
+    /* border: 1px solid red; */
+    border-radius: 10px;
+    box-shadow: 0 20px 50px -10px;
+}
 
+.card-blue {
+    border-top: 13px solid hsl(212, 86%, 64%) ;
+}
+
+.card-red {
+    border-top: 13px solid hsl(0, 78%, 62%);
+}
+
+.card-cyan {
+    border-top: 13px solid hsl(180, 62%, 55%);
+}
+
+.card-yellow {
+    border-top: 13px solid hsl(34, 97%, 64%);
 }
