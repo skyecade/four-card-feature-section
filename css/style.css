@@ -51,8 +51,10 @@ main {
 }
 
 .card {
-    height: 300px;
-    width: 350px;
+    display:flex;
+    flex-direction:column;
+    height: 280px;
+    width: 400px;
     margin:20px;
     padding: 40px;
     background-color: white;
@@ -61,18 +63,24 @@ main {
     box-shadow: 0 20px 50px -10px;
 }
 
+div.svg {
+    display:flex;
+    padding:10px;
+    justify-content:flex-end;
+}
+
 .card-blue {
-    border-top: 13px solid hsl(212, 86%, 64%) ;
+    border-top: 5px solid hsl(212, 86%, 64%) ;
 }
 
 .card-red {
-    border-top: 13px solid hsl(0, 78%, 62%);
+    border-top: 5px solid hsl(0, 78%, 62%);
 }
 
 .card-cyan {
-    border-top: 13px solid hsl(180, 62%, 55%);
+    border-top: 5px solid hsl(180, 62%, 55%);
 }
 
 .card-yellow {
-    border-top: 13px solid hsl(34, 97%, 64%);
+    border-top: 5px solid hsl(34, 97%, 64%);
 }
