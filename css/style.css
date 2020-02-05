@@ -9,8 +9,9 @@
 
 body {
     font-family: poppins;
-    margin-top:30px;
-    background-color: black;
+    font-size:15px;
+    margin-top:15px;
+    background-color: white;
     color:hsl(229, 6%, 66%);
 }
 
@@ -18,23 +19,31 @@ body {
     width:1440px;
     background-color: hsl(0, 0%, 98%);
     margin: auto;
+    padding-top: 25px;
 }
 
 header {
     text-align: center;
+    color:hsl(229, 6%, 66%);
     width: 40%;
     margin:auto;
     padding:40px;
 }
 
-header > h1 {
-    
-    font-weight: lighter;
+.stretch {
+    color:hsl(234, 12%, 34%);
+    font-size: 35px;
+    font-weight: 200;
+}
+
+header > p {
+    padding-top: 10px;
 }
 
 .strong {
+    font-size: 35px;
     color:hsl(234, 12%, 34%);
-    font-weight: bold;
+    font-weight: 600;
 }
 main {
     display:flex;
@@ -53,19 +62,28 @@ main {
 .card {
     display:flex;
     flex-direction:column;
-    height: 280px;
+    height: 270px;
     width: 400px;
-    margin:20px;
+    margin:10px;
     padding: 40px;
     background-color: white;
     /* border: 1px solid red; */
-    border-radius: 10px;
+    border-radius: 6px;
     box-shadow: 0 20px 50px -10px;
+}
+
+.card p {
+    padding-top: 10px;
+}
+
+.card-header {
+    color:hsl(234, 12%, 34%);
+    font-weight: 600;
 }
 
 div.svg {
     display:flex;
-    padding:10px;
+    padding:20px 0 0 0;
     justify-content:flex-end;
 }
 
@@ -83,4 +101,8 @@ div.svg {
 
 .card-yellow {
     border-top: 5px solid hsl(34, 97%, 64%);
+}
+
+footer {
+    margin-top: 20px;
 }
